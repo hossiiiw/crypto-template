@@ -21,6 +21,11 @@ nav {
   );
 }
 
-.search-logo{
+.search-logo {
   z-index: 2;
+}
+
+.cost-link:hover i {
+  transform: translateX(-5px);
+  transition: all 0.3s ease-in-out;
 }
