@@ -5,7 +5,9 @@
   font-weight: 500;
   font-style: normal;
 }
-
+body {
+  background-color: #0b1120;
+}
 nav {
   background-color: #010026;
 }
@@ -17,4 +19,8 @@ nav {
     rgba(7, 11, 34, 1) 21%,
     rgba(136, 90, 242, 1) 100%
   );
+}
+
+.search-logo{
+  z-index: 2;
 }
