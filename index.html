@@ -72,7 +72,7 @@
 
     <section class="landing p-4 lg:pt-10 lg:p-10">
       <div
-        class="landing-top flex justify-center lg:justify-start md:justify-start"
+        class="landing-top flex justify-center lg:justify-between md:justify-start relative"
       >
         <div>
           <div class="lg:w-[650px] m-4 lg:m-0 text-[#E5E7EB]">
@@ -95,6 +95,10 @@
             >
           </div>
         </div>
+        <div class="hidden md:block ">
+          <img src="./assets/Group 6.png" class="absolute w-[150px] rotate-[18deg]  left-[420px] top-[250px] z-[2]"  alt="">
+          <img class="absolute left-[100px] top-[24px]  " src="./assets/Mask group.png" alt="">
+        </div>
       </div>
       <!--  -->
     </section>
@@ -114,18 +118,74 @@
     </div>
 
     <!-- table  -->
-    <section
-      class="table hidden lg:flex items-center gap-[55px] justify-center mt-10 lg:p-10"
-    >
-      <!-- --------------------------------------------- -->
-      <div class="w-[340px] bg-[#2e255c] rounded-[5px]">
+     <!-- responsive table -->
+      <section class="flex items-center justify-center w-full mt-10 p-10 md:hidden lg:hidden">
+        <div class="  w-[300px] bg-[#2e255c] rounded-[5px]">
         <div
           class="flex items-center justify-center gap-4 border-b-[1px] border-[#8B5CF6] p-2"
         >
           <i>
             <img src="./assets/arrow-top.png" alt="arrow-top" " />
           </i>
-          <p class="text-[#E5E7EB]">بیشترین حجم معامله ۲۴ ساعت</p>
+          <p class="text-[#E5E7EB] text-[12px] ">بیشترین حجم معامله ۲۴ ساعت</p>
+          <a
+            class="cost-link text-[#8B5CF6] flex items-center justify-center text-[12px]"
+            href="#"
+            >همه
+            <i>
+              <img src="./assets/arrow-left.png" />
+            </i>
+          </a>
+        </div>
+        <div>
+          <div class="flex items-center justify-between p-2">
+            <i class="flex items-center justify-center gap-2">
+              <img src="./assets/bitcoin.png" />
+              <i class="text-[#E5E7EB]">بیتکوین</i>
+            </i>
+            <p class="text-[#E5E7EB]">BTC</p>
+            <p class="text-[#34C759]">1.2%</p>
+          </div>
+          <div class="flex items-center justify-between p-2">
+            <i class="flex items-center justify-center gap-2">
+              <img src="./assets/bitcoin.png" />
+              <i class="text-[#E5E7EB]">بیتکوین</i>
+            </i>
+            <p class="text-[#E5E7EB]">BTC</p>
+            <p class="text-[#34C759]">1.2%</p>
+          </div>
+          <div class="flex items-center justify-between p-2">
+            <i class="flex items-center justify-center gap-2">
+              <img src="./assets/bitcoin.png" />
+              <i class="text-[#E5E7EB]">بیتکوین</i>
+            </i>
+            <p class="text-[#E5E7EB]">BTC</p>
+            <p class="text-[#34C759]">1.2%</p>
+          </div>
+          <div class="flex items-center justify-between p-2">
+            <i class="flex items-center justify-center gap-2">
+              <img src="./assets/bitcoin.png" />
+              <i class="text-[#E5E7EB]">بیتکوین</i>
+            </i>
+            <p class="text-[#E5E7EB]">BTC</p>
+            <p class="text-[#34C759]">1.2%</p>
+          </div>
+        </div>
+      </div>
+      </section>
+     <!-- responsive table -->
+    <section
+      class="table hidden  items-center gap-[55px] justify-center mt-10 lg:flex lg:flex-wrap lg:p-10"
+    >
+      <!-- --------------------------------------------- -->
+      <div class="w-[340px] bg-[#2e255c] rounded-[5px]">
+        <div
+          class="flex items-center justify-center gap-4 border-b-[1px] border-[#8B5CF6] p-2 lg:flex lg:items-center "
+        >
+          <i>
+            <img src="./assets/arrow-top.png" alt="arrow-top" " />
+          </i>
+          <p class="text-[#E5E7EB] ">بیشترین حجم معامله ۲۴ ساعت</p>
           <a
             class="cost-link text-[#8B5CF6] flex items-center justify-center"
             href="#"
@@ -258,7 +318,7 @@
               <i class="text-[#E5E7EB]">بیتکوین</i>
             </i>
             <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
+            <p class="text-[#FF383C]">1.2%</p>
           </div>
           <div class="flex items-center justify-between p-2">
             <i class="flex items-center justify-center gap-2">
@@ -274,7 +334,7 @@
               <i class="text-[#E5E7EB]">بیتکوین</i>
             </i>
             <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
+            <p class="text-[#FF383C]">1.2%</p>
           </div>
         </div>
       </div>
@@ -337,6 +397,58 @@
       <!-- ------------------------------------------------ -->
     </section>
     <!-- table  -->
+
+    <!-- crypto table -->
+    <section class="flex items-center justify-center p-4">
+      <div class="bg-[#2E255C] text-[#E5E7EB] text-[20px] flex flex-col items-center justify-between w-[82%]   rounded-t-[5px]">
+        <div class="flex items-center justify-between w-full p-10  pl-10 pr-10 border-b-[2px] border-[#8B5CF6] ">
+            <p class="w-[25%] text-center">نماد</p>
+            <p class="w-[25%] text-center">قیمت (دلاری)</p>
+            <p class="w-[25%] text-center">قیمت (تومان)</p>
+            <p class="w-[25%] text-center">تغییرات</p>
+            <p class="w-[25%] text-center">عملیات</p>
+        </div>
+        <div class="bg-[#01002645] m-[1.5px] text-[18px] w-full p-2 pl-12 flex items-center justify-between">
+          <!--  -->
+          <div class="flex items-center w-[25%] justify-center gap-4 ">
+            <img src="./assets/bitcoin.png" alt="">
+            <div>
+              <p>بیتکوین</p>
+              <p>BTC</p>
+            </div>
+          </div>
+          <!--  -->
+          <p class="w-[25%] text-center">65,223$</p>
+          <p class="w-[25%] text-center">10,200,333,435تومان</p>
+          <p class="w-[25%] text-center text-[#34C759] flex items-center justify-center">
+            <img src="./assets/arrow-up.png" class="mb-3" alt="">
+            2%
+          </p>
+          <button class="w-[25%] text-center">خرید</button>
+        </div>
+        <!-- ------------------- -->
+        <div class="bg-[#01002645] text-[18px] w-full p-2 pl-12 flex items-center justify-between ">
+          <!--  -->
+          <div class="flex items-center w-[25%] justify-center gap-4 ">
+            <img src="./assets/bitcoin.png" alt="">
+            <div>
+              <p>بیتکوین</p>
+              <p>BTC</p>
+            </div>
+          </div>
+          <!--  -->
+          <p class="w-[25%] text-center">65,223$</p>
+          <p class="w-[25%] text-center">10,200,333,435تومان</p>
+          <p class="w-[25%] text-center text-[#34C759] flex items-center justify-center">
+            <img src="./assets/arrow-up.png" class="mb-3" alt="">
+            2%
+          </p>
+          <button class="w-[25%] text-center">خرید</button>
+        </div>
+          <!-- ------------------- -->
+      </div>
+    </section>
+    <!-- crypto table -->
 
     <!-- footer -->
     <footer></footer>
