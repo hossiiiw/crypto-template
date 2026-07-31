@@ -29,3 +29,20 @@ nav {
   transform: translateX(-5px);
   transition: all 0.3s ease-in-out;
 }
+
+.monkey-img {
+  position: relative;
+  width: 50%;
+}
+
+.monkey-img img {
+  width: 1000%;
+  display: block;
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: #8a5cf694;
+}
