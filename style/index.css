@@ -47,16 +47,31 @@ nav {
   background: #8a5cf694;
 }
 
-.blog-img{
-    position: relative;
+.blog-img {
+  position: relative;
 }
-.blog-img img{
-    width: 100%;
-    display: block;
-    filter: grayscale(100%);
+.blog-img img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%);
 }
 .blog-overlay {
   position: absolute;
   inset: 0;
   background: #8a5cf694;
+}
+
+.sing-in-gra {
+  /* https://grabient.com/_gJAgHIgHwgGpgFYgEEgJQgMtgOmgHYgImgJa */
+
+  background: linear-gradient(
+    45deg,
+    #8a5cf69a 0%,
+    #8a5cf685 16.667%,
+    #8a5cf667 33.333%,
+    #8a5cf641 50%,
+    #00000013 66.667%,
+    #00000093 83.333%,
+    #000000 100%
+  );
 }
