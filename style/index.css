@@ -46,3 +46,17 @@ nav {
   inset: 0;
   background: #8a5cf694;
 }
+
+.blog-img{
+    position: relative;
+}
+.blog-img img{
+    width: 100%;
+    display: block;
+    filter: grayscale(100%);
+}
+.blog-overlay {
+  position: absolute;
+  inset: 0;
+  background: #8a5cf694;
+}
