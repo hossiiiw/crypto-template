@@ -1,480 +1,418 @@
 <!doctype html>
 <html lang="en" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style/index.css" />
-    <title>Crypto</title>
-  </head>
-  <body>
-    <header>
-      <nav
-        class="hidden justify-between items-center w-full p-8 text-[#e5e7eb] text-[16px] font-bold md:flex lg:flex"
-        role="navigation"
-      >
-        <!-- left  -->
 
-        <div class="logo">
-          <img
-            src="./assets/Group 6.png"
-            alt=""
-            class="mr-4 md:w-[50px] lg:w-[100px]"
-          />
-        </div>
-        <!-- center -->
-        <div class="flex items-center justify-center gap-16 md:gap-8">
-          <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="#"
-            >خرید ارز دیجیتال</a
-          >
-          <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href=""
-            >قیمت ارز دیجیتال</a
-          >
-          <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href=""
-            >سرویس ها</a
-          >
-          <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href=""
-            >راهنما</a
-          >
-          <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href=""
-            >قوانین و مقررات</a
-          >
-          <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href=""
-            >ایونت ها</a
-          >
-        </div>
-        <!--  -->
-        <div class="flex items-center justify-center gap-12">
-          <div class="nav-lang">
-            <button
-              class="sing-btn bg-[#8b5cf6] p-3 rounded-[5px] hover:bg-[#7b5cf8]"
-            >
-              ثبت نام / ورورد
-            </button>
-          </div>
-          <img
-            src="./assets/Vector.png"
-            alt=""
-            class="theme-btn cursor-pointer transition delay-50 duration-50 ease-in-out hover:rotate-45"
-          />
-          <p class="text-[20px] font-bold cursor-pointer">EN</p>
-        </div>
-        <!--  -->
-      </nav>
-    </header>
-    <!-- end header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style/index.css" />
+  <title>Crypto</title>
+</head>
 
-    <section class="landing p-4 lg:pt-10 lg:p-10">
-      <div
-        class="landing-top flex justify-center lg:justify-between md:justify-start relative"
-      >
-        <div>
-          <div class="lg:w-[650px] m-4  lg:m-0 lg:mr-12 text-[#E5E7EB]">
-            <h1 class="font-bold text-[20px] lg:text-[64px]">کریپتوچی؛</h1>
-            <h1 class="font-bold text-[20px] lg:text-[64px]">
-              متمایزترین صرافی رمز ارز در ایران
-            </h1>
-          </div>
-          <div
-            class="flex flex-col items-center justify-center gap-4 mt-[70px] mb-12 lg:mr-12  md:flex-row md:justify-start xl:flex-row xl:justify-start"
-          >
-            <input
-              type="text"
-              placeholder="شماره موبایل خود را وارد کنید"
-              class="bg-[#1D1B3E] p-4 border-[#8b5cf6] border-[2px] rounded-[5px] outline-none text-white"
-            />
-            <butto
-              class="flex items-center justify-center bg-[#8b5cf6] text-white p-3 rounded-[5px] w-[100px] h-[55px] cursor-pointer hover:bg-[#7b5cf8] drop-shadow-md"
-              >ثبت نام</butto
-            >
-          </div>
-        </div>
-        <div class="hidden md:block ">
-          <img src="./assets/Group 6.png" class="absolute w-[150px] rotate-[18deg]  left-[420px] top-[250px] z-[2]"  alt="">
-          <img class="absolute left-[100px] top-[24px] xl:left-[0px] 2xl:left-[100px]  " src="./assets/Mask group.png" alt="">
-        </div>
+<body class="flex flex-col">
+  <header>
+    <nav class="hidden  justify-between items-center w-full p-8 text-[#e5e7eb] text-[16px] font-bold md:flex lg:flex"
+      role="navigation">
+      <!-- left  -->
+
+      <div class="logo">
+        <img src="./assets/Group 6.png" alt="" class="mr-4 md:w-[50px] lg:w-[100px]" />
+      </div>
+      <!-- center -->
+      <div class="flex items-center justify-center gap-16 md:gap-8">
+        <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="#">خرید ارز دیجیتال</a>
+        <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="">قیمت ارز دیجیتال</a>
+        <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="">سرویس ها</a>
+        <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="">راهنما</a>
+        <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="">قوانین و مقررات</a>
+        <a class="hover:text-[#8B5CF6] text-[10px] lg:text-[16px]" href="">ایونت ها</a>
       </div>
       <!--  -->
-    </section>
-    <div
-      class="landing-search w-[100%] flex items-center justify-center relative"
-    >
-      <img
-        src="./assets/search.png"
-        alt=""
-        class="search-logo absolute right-[60px] w-[24px] h-[24px] md:right-[130px] xl:right-[100px] 2xl:right-[120px]"
-      />
-      <input
-        type="text"
-        placeholder="رمز ارز، ان اف تی، متاورس"
-        class="absolute pr-16 w-[80%] text-white p-4 rounded-[5px] bg-[#0A0F2F] border-[#8B5CF6] border-[1px] outline-none xl:w-[90%]"
-      />
+      <div class="flex items-center justify-center gap-12">
+        <div class="nav-lang">
+          <button class="sing-btn bg-[#8b5cf6] p-3 rounded-[5px] hover:bg-[#7b5cf8]">
+            ثبت نام / ورورد
+          </button>
+        </div>
+        <img src="./assets/Vector.png" alt=""
+          class="theme-btn cursor-pointer transition delay-50 duration-50 ease-in-out hover:rotate-45" />
+        <p class="text-[20px] font-bold cursor-pointer">EN</p>
+      </div>
+      <!--  -->
+    </nav>
+  </header>
+  <!-- end header -->
+
+  <section class="landing p-4 lg:pt-10 lg:p-10">
+    <div class="landing-top flex justify-center lg:justify-between md:justify-start relative">
+      <div>
+        <div class="lg:w-[650px] m-4  lg:m-0 lg:mr-12 text-[#E5E7EB]">
+          <h1 class="font-bold text-[20px] lg:text-[64px]">کریپتوچی؛</h1>
+          <h1 class="font-bold text-[20px] lg:text-[64px]">
+            متمایزترین صرافی رمز ارز در ایران
+          </h1>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center gap-4 mt-[70px] mb-12 lg:mr-12  md:flex-row md:justify-start xl:flex-row xl:justify-start">
+          <input type="text" placeholder="شماره موبایل خود را وارد کنید"
+            class="bg-[#1D1B3E] p-4 border-[#8b5cf6] border-[2px] rounded-[5px] outline-none text-white" />
+          <butto
+            class="flex items-center justify-center bg-[#8b5cf6] text-white p-3 rounded-[5px] w-[100px] h-[55px] cursor-pointer hover:bg-[#7b5cf8] drop-shadow-md">
+            ثبت نام</butto>
+        </div>
+      </div>
+      <div class="hidden md:block ">
+        <img src="./assets/Group 6.png" class="absolute w-[150px] rotate-[18deg]  left-[420px] top-[250px] z-[2]"
+          alt="">
+        <img class="absolute left-[100px] top-[24px] xl:left-[0px] 2xl:left-[100px]  " src="./assets/Mask group.png"
+          alt="">
+      </div>
     </div>
+    <!--  -->
+  </section>
+  <div class="landing-search w-[100%] flex items-center justify-center relative">
+    <img src="./assets/search.png" alt=""
+      class="search-logo absolute right-[60px] w-[24px] h-[24px] md:right-[130px] xl:right-[100px] 2xl:right-[120px]" />
+    <input type="text" placeholder="رمز ارز، ان اف تی، متاورس"
+      class="absolute pr-16 w-[80%] text-white p-4 rounded-[5px] bg-[#0A0F2F] border-[#8B5CF6] border-[1px] outline-none xl:w-[90%]" />
+  </div>
 
-    <!-- table  -->
-     <!-- responsive table -->
-      <section class="flex items-center justify-center w-full mt-10 p-10 md:hidden lg:hidden">
-        <div class="w-[300px] bg-[#2e255c] rounded-[5px]">
-        <div
-          class="flex items-center justify-center gap-4 border-b-[1px] border-[#8B5CF6] p-2"
-        >
+  <!-- table  -->
+  <!-- responsive table -->
+  <section class="flex items-center justify-center w-full mt-10 p-10 md:hidden lg:hidden">
+    <div class="w-[300px] bg-[#2e255c] rounded-[5px]">
+      <div class="flex items-center justify-center gap-4 border-b-[1px] border-[#8B5CF6] p-2">
+        <i>
+          <img src="./assets/arrow-top.png" alt="arrow-top" />
+        </i>
+        <p class="text-[#E5E7EB] text-[13px] ">بیشترین حجم معامله ۲۴ ساعت</p>
+        <a class="cost-link text-[#8B5CF6] flex items-center justify-center text-[12px]" href="#">همه
           <i>
-            <img src="./assets/arrow-top.png" alt="arrow-top"  />
+            <img src="./assets/arrow-left.png" />
           </i>
-          <p class="text-[#E5E7EB] text-[13px] ">بیشترین حجم معامله ۲۴ ساعت</p>
-          <a
-            class="cost-link text-[#8B5CF6] flex items-center justify-center text-[12px]"
-            href="#"
-            >همه
-            <i>
-              <img src="./assets/arrow-left.png" />
-            </i>
-          </a>
+        </a>
+      </div>
+      <div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
-        <div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
       </div>
-      </section>
-     <!-- responsive table -->
-    <section
-      class="table hidden  items-center gap-[55px] justify-center mt-10 lg:flex lg:flex-wrap lg:p-10"
-    >
-      <!-- --------------------------------------------- -->
-      <div class="w-[340px] bg-[#2e255c] rounded-[5px]  xl:w-[20%]">
-        <div
-          class="flex items-center justify-around gap-4 border-b-[1px] border-[#8B5CF6] p-2 lg:flex lg:items-center "
-        >
+    </div>
+  </section>
+  <!-- responsive table -->
+  <section class="table hidden  items-center gap-[55px] justify-center mt-10 lg:flex lg:flex-wrap lg:p-10">
+    <!-- --------------------------------------------- -->
+    <div class="w-[340px] bg-[#2e255c] rounded-[5px]  xl:w-[20%]">
+      <div class="flex items-center justify-around gap-4 border-b-[1px] border-[#8B5CF6] p-2 lg:flex lg:items-center ">
+        <i>
+          <img src="./assets/arrow-top.png" alt="arrow-top" />
+        </i>
+        <p class="text-[#E5E7EB]  xl:text-[15px]">بیشترین حجم معامله </p>
+        <a class="cost-link text-[#8B5CF6] flex items-center justify-center" href="#">همه
           <i>
-            <img src="./assets/arrow-top.png" alt="arrow-top"  />
+            <img src="./assets/arrow-left.png" />
           </i>
-          <p class="text-[#E5E7EB]  xl:text-[15px]">بیشترین حجم معامله </p>
-          <a
-            class="cost-link text-[#8B5CF6] flex items-center justify-center"
-            href="#"
-            >همه
-            <i>
-              <img src="./assets/arrow-left.png" />
-            </i>
-          </a>
+        </a>
+      </div>
+      <div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
-        <div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
       </div>
-      <!-- ------------------------------------------------ -->
-      <!-- --------------------------------------------- -->
-      <div class="w-[340px] bg-[#2e255c] rounded-[5px] xl:w-[20%]">
-        <div
-          class="flex items-center justify-around gap-4 border-b-[1px] border-[#8B5CF6] p-2"
-        >
+    </div>
+    <!-- ------------------------------------------------ -->
+    <!-- --------------------------------------------- -->
+    <div class="w-[340px] bg-[#2e255c] rounded-[5px] xl:w-[20%]">
+      <div class="flex items-center justify-around gap-4 border-b-[1px] border-[#8B5CF6] p-2">
+        <i>
+          <img src="./assets/up.png" alt="arrow-top" />
+        </i>
+        <p class="text-[#E5E7EB] xl:text-[15px]">بیشترین افزایش قیمت </p>
+        <a class="cost-link text-[#8B5CF6] flex items-center justify-center" href="#">همه
           <i>
-            <img src="./assets/up.png" alt="arrow-top" />
+            <img src="./assets/arrow-left.png" />
           </i>
-          <p class="text-[#E5E7EB] xl:text-[15px]">بیشترین افزایش قیمت  </p>
-          <a
-            class="cost-link text-[#8B5CF6] flex items-center justify-center"
-            href="#"
-            >همه
-            <i>
-              <img src="./assets/arrow-left.png" />
-            </i>
-          </a>
+        </a>
+      </div>
+      <div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
-        <div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
       </div>
-      <!-- ------------------------------------------------ -->
-      <!-- --------------------------------------------- -->
-      <div class="w-[340px] bg-[#2e255c] rounded-[5px] xl:w-[20%]">
-        <div
-          class="flex items-center justify-around gap-4 border-b-[1px] border-[#8B5CF6] p-2"
-        >
+    </div>
+    <!-- ------------------------------------------------ -->
+    <!-- --------------------------------------------- -->
+    <div class="w-[340px] bg-[#2e255c] rounded-[5px] xl:w-[20%]">
+      <div class="flex items-center justify-around gap-4 border-b-[1px] border-[#8B5CF6] p-2">
+        <i>
+          <img src="./assets/down.png" alt="arrow-top" class="w-6" />
+        </i>
+        <p class="text-[#E5E7EB] xl:text-[15px]">بیشترین کاهش قیمت </p>
+        <a class="cost-link text-[#8B5CF6] flex items-center justify-center" href="#">همه
           <i>
-            <img src="./assets/down.png" alt="arrow-top" class="w-6" />
+            <img src="./assets/arrow-left.png" />
           </i>
-          <p class="text-[#E5E7EB] xl:text-[15px]">بیشترین کاهش قیمت  </p>
-          <a
-            class="cost-link text-[#8B5CF6] flex items-center justify-center"
-            href="#"
-            >همه
-            <i>
-              <img src="./assets/arrow-left.png" />
-            </i>
-          </a>
+        </a>
+      </div>
+      <div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
-        <div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#FF383C]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#FF383C]">1.2%</p>
-          </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#FF383C]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#FF383C]">1.2%</p>
         </div>
       </div>
-      <!-- ------------------------------------------------ -->
-      <!-- --------------------------------------------- -->
-      <div class="w-[340px] bg-[#2e255c] rounded-[5px] xl:w-[20%]">
-        <div
-          class="flex items-center justify-between gap-4 border-b-[1px] border-[#8B5CF6] p-2"
-        >
-          <div class="flex items-center justify-center gap-2">
-            <i>
-              <img src="./assets/new.png" alt="arrow-top" />
-            </i>
-            <p class="text-[#E5E7EB] xl:text-[15px]">جدیدترین ها</p>
-          </div>
-          <a
-            class="cost-link text-[#8B5CF6] flex items-center justify-center"
-            href="#"
-            >همه
-            <i>
-              <img src="./assets/arrow-left.png" />
-            </i>
-          </a>
+    </div>
+    <!-- ------------------------------------------------ -->
+    <!-- --------------------------------------------- -->
+    <div class="w-[340px] bg-[#2e255c] rounded-[5px] xl:w-[20%]">
+      <div class="flex items-center justify-between gap-4 border-b-[1px] border-[#8B5CF6] p-2">
+        <div class="flex items-center justify-center gap-2">
+          <i>
+            <img src="./assets/new.png" alt="arrow-top" />
+          </i>
+          <p class="text-[#E5E7EB] xl:text-[15px]">جدیدترین ها</p>
         </div>
-        <div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
-          <div class="flex items-center justify-between p-2">
-            <i class="flex items-center justify-center gap-2">
-              <img src="./assets/bitcoin.png" />
-              <i class="text-[#E5E7EB]">بیتکوین</i>
-            </i>
-            <p class="text-[#E5E7EB]">BTC</p>
-            <p class="text-[#34C759]">1.2%</p>
-          </div>
+        <a class="cost-link text-[#8B5CF6] flex items-center justify-center" href="#">همه
+          <i>
+            <img src="./assets/arrow-left.png" />
+          </i>
+        </a>
+      </div>
+      <div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
+        </div>
+        <div class="flex items-center justify-between p-2">
+          <i class="flex items-center justify-center gap-2">
+            <img src="./assets/bitcoin.png" />
+            <i class="text-[#E5E7EB]">بیتکوین</i>
+          </i>
+          <p class="text-[#E5E7EB]">BTC</p>
+          <p class="text-[#34C759]">1.2%</p>
         </div>
       </div>
-      <!-- ------------------------------------------------ -->
-    </section>
-    <!-- table  -->
+    </div>
+    <!-- ------------------------------------------------ -->
+  </section>
+  <!-- table  -->
 
-    <!-- crypto table -->
-    <section class="hidden   items-center justify-center p-4 md:flex">
-      <div class="bg-[#2E255C] text-[#E5E7EB] text-[20px] flex flex-col items-center justify-between w-[89%] 2xl:w-[87%]  rounded-t-[5px]">
-        <div class="flex items-center justify-between w-full p-10  pl-10 pr-10 border-b-[2px] border-[#8B5CF6] ">
-            <p class="text-[12px] md:text-[20px] w-[25%] text-center">نماد</p>
-            <p class="text-[12px] md:text-[20px] w-[25%] text-center">قیمت (دلاری)</p>
-            <p class="hidden md:block  w-[25%] text-center">قیمت (تومان)</p>
-            <p class="hidden md:block w-[25%] text-center">تغییرات</p>
-            <p class="hidden md:block w-[25%] text-center">عملیات</p>
-        </div>
-        <div class="bg-[#01002645] m-[1.5px] text-[18px] w-full p-2 pl-12 flex items-center justify-between">
-          <!--  -->
-          <div class="mr-6 flex items-center w-[25%] justify-center gap-4 ">
-            <img src="./assets/bitcoin.png"  alt="">
-            <div>
-              <p class="text-[12px] md:text-[20px]">بیتکوین</p>
-              <p class="text-[12px] md:text-[20px]">BTC</p>
-            </div>
-          </div>
-          <!--  -->
-          <p class="text-[12px] md:text-[20px] w-[25%] text-center">65,223$</p>
-          <p class="hidden md:flex w-[25%] text-center">10,200,333,435تومان</p>
-          <p class="hidden md:flex w-[25%] text-center text-[#34C759] flex items-center justify-center">
-            <img src="./assets/arrow-up.png" class="mb-3" alt="">
-            2%
-          </p>
-              <div class="hidden md:block w-[25%] text-center">
-             <button class="bg-[#5531A8] w-[50%] p-2 rounded-[5px] hover:bg-[#6a3fb0]">خرید</button>
+  <!-- crypto table -->
+  <section class="hidden   items-center justify-center p-4 md:flex">
+    <div
+      class="bg-[#2E255C] text-[#E5E7EB] text-[20px] flex flex-col items-center justify-between w-[89%] 2xl:w-[87%]  rounded-t-[5px]">
+      <div class="flex items-center justify-between w-full p-10  pl-10 pr-10 border-b-[2px] border-[#8B5CF6] ">
+        <p class="text-[12px] md:text-[20px] w-[25%] text-center">نماد</p>
+        <p class="text-[12px] md:text-[20px] w-[25%] text-center">قیمت (دلاری)</p>
+        <p class="hidden md:block  w-[25%] text-center">قیمت (تومان)</p>
+        <p class="hidden md:block w-[25%] text-center">تغییرات</p>
+        <p class="hidden md:block w-[25%] text-center">عملیات</p>
+      </div>
+      <div class="bg-[#01002645] m-[1.5px] text-[18px] w-full p-2 pl-12 flex items-center justify-between">
+        <!--  -->
+        <div class="mr-6 flex items-center w-[25%] justify-center gap-4 ">
+          <img src="./assets/bitcoin.png" alt="">
+          <div>
+            <p class="text-[12px] md:text-[20px]">بیتکوین</p>
+            <p class="text-[12px] md:text-[20px]">BTC</p>
           </div>
         </div>
-        <!-- ------------------- -->
-        <div class="bg-[#01002645] text-[18px] w-full p-2 pl-12 flex items-center justify-between ">
-          <!--  -->
-          <div class="mr-6 flex items-center w-[25%] justify-center gap-4 ">
-            <img src="./assets/eth.png"  alt="">
-            <div>
-              <p class="text-[12px] md:text-[20px]">اتریوم</p>
-              <p class="text-[12px] md:text-[20px]">ETH</p>
-            </div>
+        <!--  -->
+        <p class="text-[12px] md:text-[20px] w-[25%] text-center">65,223$</p>
+        <p class="hidden md:flex w-[25%] text-center">10,200,333,435تومان</p>
+        <p class="hidden md:flex w-[25%] text-center text-[#34C759] flex items-center justify-center">
+          <img src="./assets/arrow-up.png" class="mb-3" alt="">
+          2%
+        </p>
+        <div class="hidden md:block w-[25%] text-center">
+          <button class="bg-[#5531A8] w-[50%] p-2 rounded-[5px] hover:bg-[#6a3fb0]">خرید</button>
+        </div>
+      </div>
+      <!-- ------------------- -->
+      <div class="bg-[#01002645] text-[18px] w-full p-2 pl-12 flex items-center justify-between ">
+        <!--  -->
+        <div class="mr-6 flex items-center w-[25%] justify-center gap-4 ">
+          <img src="./assets/eth.png" alt="">
+          <div>
+            <p class="text-[12px] md:text-[20px]">اتریوم</p>
+            <p class="text-[12px] md:text-[20px]">ETH</p>
           </div>
-          <!--  -->
-          <p class="text-[12px] md:text-[20px] w-[25%] text-center">65,223$</p>
-          <p class="hidden md:flex w-[25%] text-center">10,200,333,435تومان</p>
-          <p class="hidden md:flex w-[25%] text-center text-[#FF383C] flex items-center justify-center">
-            <img src="./assets/arrow-down.png" class="" alt="">
-            2%
-          </p>
-              <div class="hidden md:block w-[25%] text-center">
-             <button class="bg-[#5531A8] w-[50%] p-2 rounded-[5px] hover:bg-[#6a3fb0]">خرید</button>
-          </div>
         </div>
-        <div class="bg-[#2E255C] p-6">
-          <button class="text-[12px] bg-[#8B5CF6] w-[100%] p-2 rounded-[5px] hover:bg-[#6a3fb0] flex items-center justify-center md:text-[20px]"> 
-           مشاهده همه رمز ارز ها
-            <i>
-              <img src="./assets/arrow-left2.png" class="w-10 mr-2 p-2 " alt="">
-            </i></button>
+        <!--  -->
+        <p class="text-[12px] md:text-[20px] w-[25%] text-center">65,223$</p>
+        <p class="hidden md:flex w-[25%] text-center">10,200,333,435تومان</p>
+        <p class="hidden md:flex w-[25%] text-center text-[#FF383C] flex items-center justify-center">
+          <img src="./assets/arrow-down.png" class="" alt="">
+          2%
+        </p>
+        <div class="hidden md:block w-[25%] text-center">
+          <button class="bg-[#5531A8] w-[50%] p-2 rounded-[5px] hover:bg-[#6a3fb0]">خرید</button>
         </div>
-        </div>
-          <!-- ------------------- -->
-           </div>
-    </section>
-    <!-- crypto table -->
-    <!-- information -->
-     <section class="information flex justify-center mt-[60px] ">
-      <div class="w-full flex flex-wrap items-center justify-between gap-4 p-4 lg:p-10 2xl:w-[90%]">
-           <div class="w-full flex flex-col items-center justify-center gap-4 md:w-[20%] ">
+      </div>
+      <div class="bg-[#2E255C] p-6">
+        <button
+          class="text-[12px] bg-[#8B5CF6] w-[100%] p-2 rounded-[5px] hover:bg-[#6a3fb0] flex items-center justify-center md:text-[20px]">
+          مشاهده همه رمز ارز ها
+          <i>
+            <img src="./assets/arrow-left2.png" class="w-10 mr-2 p-2 " alt="">
+          </i></button>
+      </div>
+    </div>
+    <!-- ------------------- -->
+    </div>
+  </section>
+  <!-- crypto table -->
+  <!-- information -->
+  <section class="information flex justify-center mt-[60px] ">
+    <div class="w-full flex flex-wrap items-center justify-between gap-4 p-4 lg:p-10 2xl:w-[90%]">
+      <div class="w-full flex flex-col items-center justify-center gap-4 md:w-[20%] ">
         <img src="./assets/lock.png" alt="lock" class="w-[80px] h-[80px]">
         <h2 class="text-[32px] text-[#E5E7EB] xl:text-[20px]"> بالاترین سطح امنیتی</h2>
         <p class="text-[15px] text-[#E5E7EB99]">در بستری امن و مطمعن معامله کنید</p>
       </div>
-            <div class="w-full flex flex-col items-center justify-center gap-4 md:w-[20%] ">
+      <div class="w-full flex flex-col items-center justify-center gap-4 md:w-[20%] ">
         <img src="./assets/wallet.png" alt="wallet" class="w-[80px] h-[80px]">
         <h2 class="text-[32px] text-[#E5E7EB] xl:text-[20px]"> بدون کارمزد نگهداری</h2>
         <p class="text-[15px] text-[#E5E7EB99]">امکان نگهداری رمزارز بدون کارمزد</p>
       </div>
-       <div class="w-full flex flex-col items-center justify-center gap-4 md:w-[20%] ">
+      <div class="w-full flex flex-col items-center justify-center gap-4 md:w-[20%] ">
         <img src="./assets/chat.png" alt="chat" class="w-[80px] h-[80px]">
         <h2 class="text-[32px] text-[#E5E7EB] xl:text-[20px]">پشتیبانی ۲۴ ساعته </h2>
         <p class="text-[15px] text-[#E5E7EB99]">پاسخگویی شبانه روزی ۷ روز هفته</p>
@@ -484,101 +422,166 @@
         <h2 class="text-[32px] text-[#E5E7EB] xl:text-[20px]">خرید و فروش آنی</h2>
         <p class="text-[15px] text-[#E5E7EB99]">خرید و فروش آنی در بازارهای جهانی</p>
       </div>
-     </div>
-     </section>
-    <!-- information -->
-     <!-- blog -->
-      <section class="blog bg-[#2E255C] bg-opacity-[60%] w-full p-10">
-        <div class="blog-title ">
-          <p class="text-[#8B5CF6] text-[24px] text-center mb-4 md:mb-0 md:text-right lg:text-[36px]">وبلاگ کریپتوچی</p>
-          <div class="w-full flex flex-col items-center justify-between lg:flex-row lg:justify-between gap-4">
-            <p class="text-[12px] lg:text-[40px] text-[#e5e7eb]">تازه ترین اخبار منتشر شده در وبلاگ کریپتوچی</p>
-            <div class="flex items-enter justify-center gap-4">
-              <button class="w-[90px] md:w-[140px]  md:h-[40px] text-[#E5E7EB] rounded-[5px] bg-[#BC94FF] drop-shadow-2xl drop-shadow-[#8B5CF6]">اخبار</button>
-              <button class="w-[90px] md:w-[140px]  md:h-[40px] text-[#E5E7EB] rounded-[5px] border-[1px] border-[#BC94FF]  ">مقالات</button>
-              <button class="w-[90px] md:w-[140px]  md:h-[40px] text-[#E5E7EB] rounded-[5px] border-[1px] border-[#BC94FF] ">آموزش</button>
+    </div>
+  </section>
+  <!-- information -->
+  <!-- blog -->
+  <section class="blog bg-[#2E255C] bg-opacity-[60%] w-full p-10">
+    <div class="blog-title ">
+      <p class="text-[#8B5CF6] text-[24px] text-center mb-4 md:mb-0 md:text-right lg:text-[36px]">وبلاگ کریپتوچی</p>
+      <div class="w-full flex flex-col items-center justify-between lg:flex-row lg:justify-between gap-4">
+        <p class="text-[12px] lg:text-[40px] text-[#e5e7eb]">تازه ترین اخبار منتشر شده در وبلاگ کریپتوچی</p>
+        <div class="flex items-enter justify-center gap-4">
+          <button
+            class="w-[90px] md:w-[140px]  md:h-[40px] text-[#E5E7EB] rounded-[5px] bg-[#BC94FF] drop-shadow-2xl drop-shadow-[#8B5CF6]">اخبار</button>
+          <button
+            class="w-[90px] md:w-[140px]  md:h-[40px] text-[#E5E7EB] rounded-[5px] border-[1px] border-[#BC94FF]  ">مقالات</button>
+          <button
+            class="w-[90px] md:w-[140px]  md:h-[40px] text-[#E5E7EB] rounded-[5px] border-[1px] border-[#BC94FF] ">آموزش</button>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="blog-bottom flex items-center justify-center md:justify-between gap-4 mt-12">
+      <div class="hidden  monkey-img w-[50%] md:block ">
+        <img class=" w-[635px] h-[670px] rounded-[5px] " src="./assets/monkey.jpg" alt="">
+        <div class="overlay rounded-[5px]"></div>
+        <div class="absolute p-2 bg-[#BC94FF] w-[80%] bottom-0 left-0 rounded-bl-[5px] ">
+          <p class="text-[32px] text-[#2E255C] font-bold">تازه ترین ها درباره دنیای میم کوین ها</p>
+          <div class="mt-2 flex items-center justify-start gap-4 text-[#2E255CDE]">
+            <p>انتشار ۲۳ خرداد</p>
+            <p>دسته بندی اخبار</p>
+            <p class="flex items-center gap-2"> <i>
+                <img src="./assets/eyes.png" alt="">
+              </i>۲,۱۳۴ </p>
+          </div>
+        </div>
+      </div>
+      <div class="w-[full] md:w-[50%] grid grid-cols-1 lg:grid-cols-2 gap-14 mb-5">
+        <div class="blog-img hidden md:block">
+          <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/candle.jpg" alt="">
+          <div class="blog-overlay rounded-[5px]"></div>
+          <div
+            class="absolute bottom-0  left-[40px] top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]">
+            <p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
+            <div class="mt-2 flex items-center justify-start gap-4 text-[10px] ">
+              <p>انتشار۳ تیر ۱۴۰۵ </p>
+              <p>دسته بندی اخبار</p>
+              <p class="flex items-center gap-2"> <i>
+                  <img src="./assets/white eye.png" alt="">
+                </i>۲,۱۳۴ </p>
             </div>
           </div>
         </div>
-        <!--  -->
-          <div class="blog-bottom flex items-center justify-center md:justify-between gap-4 mt-12">
-            <div class="hidden  monkey-img w-[50%] md:block ">
-              <img class=" w-[635px] h-[670px] rounded-[5px] " src="./assets/monkey.jpg" alt="">
-              <div class="overlay rounded-[5px]"></div>
-              <div class="absolute p-2 bg-[#BC94FF] w-[80%] bottom-0 left-0 rounded-bl-[5px] ">
-                <p class="text-[32px] text-[#2E255C] font-bold">تازه ترین ها درباره دنیای میم کوین ها</p>
-                <div class="mt-2 flex items-center justify-start gap-4 text-[#2E255CDE]">
-                  <p>انتشار ۲۳ خرداد</p>
-                  <p>دسته بندی اخبار</p>
-                  <p class="flex items-center gap-2"> <i>
-                    <img src="./assets/eyes.png" alt="">
-                  </i>۲,۱۳۴ </p>
-                </div>
-              </div>
-            </div>
-            <div class="w-[full] md:w-[50%] grid grid-cols-1 lg:grid-cols-2 gap-14 mb-5">
-             <div  class="blog-img hidden md:block">
-               <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/candle.jpg" alt="">
-               <div class="blog-overlay rounded-[5px]"></div>
-               <div class="absolute bottom-0  left-[40px] top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]">
-                <p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
-                <div class="mt-2 flex items-center justify-start gap-4 text-[10px] ">
-                  <p >انتشار۳ تیر ۱۴۰۵  </p>
-                  <p>دسته بندی اخبار</p>
-                  <p class="flex items-center gap-2"> <i>
-                    <img src="./assets/white eye.png" alt="">
-                  </i>۲,۱۳۴ </p>
-                </div>
-               </div>
-             </div>
-             <div class="blog-img hidden md:block">
-              <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/coin.jpg" alt="">
-                 <div class="blog-overlay rounded-[5px]"></div>
-                 <div class="absolute bottom-0 left-[40px] top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]"><p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
-                <div class="mt-2 flex items-center justify-start gap-4 text-[10px] ">
-                  <p >انتشار۳ تیر ۱۴۰۵  </p>
-                  <p>دسته بندی اخبار</p>
-                  <p class="flex items-center gap-2"> <i>
-                    <img src="./assets/white eye.png" alt="">
-                  </i>۲,۱۳۴ </p>
-                </div></div>
-             </div>
-             <div class="blog-img hidden md:block">
-              <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/coins.jpg" alt="">
-                 <div class="blog-overlay rounded-[5px]"></div>
-                 <div class="absolute bottom-0 left-[40px] top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]"><p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
-                <div class="mt-2 flex items-center justify-start gap-4 text-[10px] ">
-                  <p >انتشار۳ تیر ۱۴۰۵  </p>
-                  <p>دسته بندی اخبار</p>
-                  <p class="flex items-center gap-2"> <i>
-                    <img src="./assets/white eye.png" alt="">
-                  </i>۲,۱۳۴ </p>
-                </div></div>
-             </div>
-             <div class="blog-img">
-              <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/image.jpg" alt="">
-                 <div class="blog-overlay rounded-[5px]"></div>
-                 <div class="absolute bottom-0  left-[20px] top-[240px] lg:left-[40px] lg:top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]"><p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
-                <div class="mt-2 flex items-center justify-start gap-4 text-[10px]">
-                  <p >انتشار۳ تیر ۱۴۰۵  </p>
-                  <p>دسته بندی اخبار</p>
-                  <p class="flex items-center gap-2"> <i>
-                    <img src="./assets/white eye.png" alt="">
-                  </i>۲,۱۳۴ </p>
-                </div></div>
-              </div>
-              <div class="flex items-center justify-center gap-2 w-full h-[20px]  md:hidden">
-                <i class="block w-[10px] h-[10px] cursor-pointer bg-[#BC94FF] rounded-full "></i>
-                <i class="block w-[10px] h-[10px] cursor-pointer bg-white rounded-full "></i>
-                <i class="block w-[10px] h-[10px] cursor-pointer bg-white rounded-full "></i>
-                <i class="block w-[10px] h-[10px] cursor-pointer bg-white rounded-full "></i>
-              </div>
+        <div class="blog-img hidden md:block">
+          <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/coin.jpg" alt="">
+          <div class="blog-overlay rounded-[5px]"></div>
+          <div
+            class="absolute bottom-0 left-[40px] top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]">
+            <p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
+            <div class="mt-2 flex items-center justify-start gap-4 text-[10px] ">
+              <p>انتشار۳ تیر ۱۴۰۵ </p>
+              <p>دسته بندی اخبار</p>
+              <p class="flex items-center gap-2"> <i>
+                  <img src="./assets/white eye.png" alt="">
+                </i>۲,۱۳۴ </p>
             </div>
           </div>
-        
-      </section>
-     <!-- blog -->
-    <!-- footer -->
-    <footer></footer>
-  </body>
-</html>
+        </div>
+        <div class="blog-img hidden md:block">
+          <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/coins.jpg" alt="">
+          <div class="blog-overlay rounded-[5px]"></div>
+          <div
+            class="absolute bottom-0 left-[40px] top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]">
+            <p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
+            <div class="mt-2 flex items-center justify-start gap-4 text-[10px] ">
+              <p>انتشار۳ تیر ۱۴۰۵ </p>
+              <p>دسته بندی اخبار</p>
+              <p class="flex items-center gap-2"> <i>
+                  <img src="./assets/white eye.png" alt="">
+                </i>۲,۱۳۴ </p>
+            </div>
+          </div>
+        </div>
+        <div class="blog-img">
+          <img class="w-[300px] h-[280px] rounded-[5px]" src="./assets/image.jpg" alt="">
+          <div class="blog-overlay rounded-[5px]"></div>
+          <div
+            class="absolute bottom-0  left-[20px] top-[240px] lg:left-[40px] lg:top-[240px] bg-[#4033718C]/50 h-[70px] w-[231px] text-[#E5E7EBDE] p-2 rounded-[5px] 2xl:left-[100px]">
+            <p class="text-[15px]">قیمت آلت کوین ها امروز ۳ تیر ۱۴۰۵</p>
+            <div class="mt-2 flex items-center justify-start gap-4 text-[10px]">
+              <p>انتشار۳ تیر ۱۴۰۵ </p>
+              <p>دسته بندی اخبار</p>
+              <p class="flex items-center gap-2"> <i>
+                  <img src="./assets/white eye.png" alt="">
+                </i>۲,۱۳۴ </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-center gap-2 w-full h-[20px]  md:hidden">
+          <i class="block w-[10px] h-[10px] cursor-pointer bg-[#BC94FF] rounded-full "></i>
+          <i class="block w-[10px] h-[10px] cursor-pointer bg-white rounded-full "></i>
+          <i class="block w-[10px] h-[10px] cursor-pointer bg-white rounded-full "></i>
+          <i class="block w-[10px] h-[10px] cursor-pointer bg-white rounded-full "></i>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- blog -->
+  <!-- help -->
+  <section class="flex  items-center justify-center">
+    <div class="w-[95%] flex flex-col items-center">
+      <div class="flex items-center justify-between gap-4 p-4">
+        <div class="w-[60%] flex flex-col items-start justify-center gap-4">
+          <div class="flex flex-col items-start justify-start gap-2">
+            <div class="flex items-center justify-start gap-4 mb-6">
+              <img src="./assets/Info.png" />
+              <p class="text-[40px] text-[#E5E7EB]">معرفی صرافی ارز دیجیتال کریپتوچی</p>
+            </div>
+            <p class="text-[20px] text-[#E5E7EB] font-semibold">صرافی ارز دیجیتال کریپتوچی با هدف فراهم کردن بستری امن و
+              سریع برای خرید و فروش ارزهای دیجیتال برای کاربران ایرانی آغاز به کار کرد.کریپتوچی با بیش از ۰.۵ میلیون
+              کاربر و بیش از ۲۴۰۰ رمزارز متنوع، از جمله بیت‌کوین، اتریوم، تتر و… یکی از باسابقه‌ترین پلتفرم‌های معاملاتی
+              ایرانی است.</p>
+          </div>
+        </div>
+        <div class="w-[30%]">
+          <img src="./assets/help-2.png" />
+        </div>
+      </div>
+
+
+      <div class="flex items-center justify-between">
+        <div class="w-[30%]">
+          <img src="./assets/help-1 (1).png" />
+        </div>
+
+        <div class="w-[60%] flex flex-col items-start justfy-center gap-4 text-[#E5E7EB]">
+          <div class="flex items-center justify-start gap-4">
+            <img src="./assets/icon-1.png" />
+            <p class="text-[40px] ">مراحل خرید ارز دیجیتال از کریپتوچی</p>
+          </div>
+          <div class="font-semibold flex flex-col gap-3">
+            <p>۱. ثبت‌نام و احراز هویت: با مراجعه به بخش ثبت نام، فرآیند ثبت‌نام و احراز هویت را در کمتر از ۵ دقیقه
+              تکمیل
+              کنید.</p>
+            <p>۲. شارژ حساب: حساب کاربری خود را به‌صورت ریالی شارژ کنید.</p>
+            <p>۳. انتخاب رمزارز: از میان بیش از ۱۰۰۰ رمزارز موجود، ارز دیجیتال مورد نظر خود را انتخاب کنید.</p>
+            <p>۴. ثبت سفارش: مقدار مورد نظر را وارد کرده و سفارش خرید یا فروش خود را ثبت کنید.</p>
+            <p class="leading-[2]">۵. مدیریت دارایی: رمزارز خریداری‌شده در بخش پورتفولیو یا همان کیف پول اختصاصی کریپتوچی نگهداری می‌شود و
+            هر  
+              زمان اراده کنید، می‌توانید آن را بفروشید یا به کیف پول دیگری منتقل کنید.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- help -->
+  <!-- footer -->
+  <footer></footer>
+</body>
+
+</html>;
