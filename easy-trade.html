@@ -126,10 +126,50 @@
             <!-- header -->
             <!-- easy trade -->
             <div class="w-full flex flex-col items-start mt-6">
-                <p class="text-[32px] font-bold text-[#E5E7EB]">معامله آسان</p>
-                <div class="w-full h-[0.5px] bg-[#724BDA]"></div>
-                <div class="w-full flex items-center justify-between mt-4">
-                    <div class="w-[46%] bg-[#2E255C] flex flex-col">
+                <p class="md:text-[32px] font-bold text-[#E5E7EB]">معامله آسان</p>
+                <div class="w-full h-[0.5px] mt-2  bg-[#724BDA]"></div>
+
+                <!-- responsive form -->
+                <form class="w-full md:hidden mt-2 flex flex-col  items-center gap-2 bg-[#2E255C]">
+                    <div class="w-full flex items-center justify-start gap-2 p-2">
+                        <p class="text-[#2dc052] border-b border-[#2dc052]">خرید</p>
+                        <p class="text-[#E5E7EB] opacity-50">فروش</p>
+                    </div>
+                    <div class="w-full flex flex-col items-center justify-center gap-2 p-2">
+                       <div class="w-full flex flex-col items-center justify-center">
+                         <div
+                            class="w-[90%] flex items-center justify-between p-1 bg-[#0A0F2F] border border-[#8B5CF6] rounded-[5px]">
+                            <div class="flex items-center gap-2">
+                                <img class="w-[20px]" src="./assets/bitcoin.png">
+                                <div>
+                                    <p class="text-[#E5E7EB] text-[10px]">بیت کوین</p>
+                                    <p class="text-[#E5E7EB] text-[10px] opacity-50">BTC</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./assets/arrow-left.png" class="rotate-[270deg]">
+                            </div>
+                            
+                        </div>
+                        <div class="w-[90%] mt-2  bg-[#0A0F2F] border border-[#8B5CF6] rounded-[5px] p-1 flex items-center justify-between text-[12px] text-[#E5E7EB]">
+                            <p>ارزش</p>
+                            <div class="flex items-center gasp-1">
+                                <span>IRT</span>
+                                <span>۱۰,۳۴۵,۷۶۵,۱۸۷</span>
+                            </div>
+                        </div>
+                       </div>
+                        <input
+                            class="w-[90%] bg-[#0A0F2F] outline-none p-2 text-[12px] rounded-[5px] border border-[#8B5CF6]"
+                            placeholder="مقدار">
+                        <button type="submit"
+                            class="w-[90%] p-1 rounded-[5px] bg-[#8B5CF6] text-[#E5E7EB] text-[12px]">ورود و انحام
+                            معامله</button>
+                    </div>
+                </form>
+                <!-- responsive form -->
+                <div class=" w-full flex flex-col md:flex-row md:gap-0 gap-2 items-center justify-between mt-4">
+                    <div class="hidden md:flex w-[46%] bg-[#2E255C]  flex-col">
                         <div
                             class="w-full flex items-center justify-start gap-4 p-4 bg-[#8a5cf6]  text-[24px] text-bold">
 
@@ -168,7 +208,7 @@
                                 <div class="w-full p-2 flex flex-col gap-4 items-start justify-start ">
                                     <p class=" text-[#E5E7EB] text-[20px]"> چقدر می خرید؟</p>
 
-                                    <div
+                                    <!-- <div
                                         class="w-full flex flex-col gap-2 bg-[#0A0F2F] p-3 text-[#E5E7EB99] text-[13px] border border-[#8B5CF6] rounded-[5px] ">
                                         <div class="w-full flex items-center justify-between">
                                             <span class="flex items-center gap-1">
@@ -182,11 +222,26 @@
                                             <p>معادل:</p>
                                             <span> ۰ تومان</span>
                                         </div>
+                                    </div> -->
+                                    <div
+                                        class="w-full relative flex flex-col gap-2 bg-[#0A0F2F] p-3 text-[#E5E7EB99] text-[13px] border border-[#8B5CF6] rounded-[5px] ">
+                                        <input
+                                            class=" bg-[#0A0F2F] p-1 pr-4 text-[#E5E7EB99] outline-none placeholder-m-2"
+                                            placeholder="مقدار خرید">
+                                        <div class="absolute top-[18px] right-[10px]">
+                                            <img src="./assets/Group 183.png">
+                                        </div>
+                                        <div class="w-full h-[0.5px] bg-[#8B5CF6B2]"></div>
+                                        <div class="w-full flex items-center justify-between">
+                                            <p>معادل</p>
+                                            <p>۰ تومان</p>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="w-full flex items-center p-2">
                                     <button
-                                        class="w-full bg-[#8B5CF6] rounded-[5px] p-2 text-[16px] font-extrabold text-[#E5E7EB]">ورود
+                                        class="w-full bg-[#8B5CF6] rounded-[5px] p-2 text-[16px] font-extrabold text-[#E5E7EB]  hover:bg-[#814ff5]">ورود
                                         و انجام معامله</button>
                                 </div>
                                 <!--  -->
@@ -194,7 +249,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-[46%] bg-[#2E255C] text-[#E5E7EBB2] text-[16px] flex flex-col items-center gap-2 p-4">
+                    <div
+                        class="hidden md:flex w-[46%] bg-[#2E255C] text-[#E5E7EBB2] text-[16px]  flex-col items-center gap-2 p-4">
                         <div class="w-full flex items-center justify-between p-2">
                             <p>دارایی ارزی شما</p>
                             <div class="flex items-center gap-2">
@@ -231,7 +287,7 @@
                                 </div>
                             </div>
                             <div
-                                class="w-full flex flex-col items-center bg-[#0A0F2F] border border-[#8B5CF6] rounded-[5px] mt-4 p-1">
+                                class="w-full flex flex-col items-center bg-[#0A0F2F] border border-[#8B5CF6] rounded-[5px] mt-4 p-2">
                                 <div class="w-full flex justify-between items-center p-1">
                                     <p>تغییرات ۲۴ ساعته</p>
                                     <p>-۰.۲۳٪</p>
@@ -250,7 +306,8 @@
                                 </div>
                             </div>
                             <div class="w-full flex items-center  mt-8">
-                                <button class="w-full bg-[#8B5CF6] rounded-[5px] p-2 text-[16px] font-extrabold text-[#E5E7EB]">
+                                <button
+                                    class="w-full bg-[#8B5CF6] rounded-[5px] p-2 text-[16px] font-extrabold text-[#E5E7EB] hover:bg-[#814ff5]">
                                     مشاهده نمودار
                                 </button>
                             </div>
