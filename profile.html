@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/index.css" />
+    <title>dashboard</title>
+</head>
+
+<body>
+    <section class="flex items-start justify-around  gap-6 p-1 md:p-4">
+        <!-- sidebar -->
+        <nav class="w-[38%] md:w-[25%] bg-[#221B4D] rounded-[5px] p-2">
+            <div class="w-full flex flex-col items-center justify-center ">
+                <a href="/"> <img src="./assets/Group 6.png" class="w-[80px] xl:w-[120px] mt-4"></a>
+                <div class="w-full mt-12">
+                    <p class="text-[#E5E7EB80] text-[12px]">منوی اصلی</p>
+                    <div class="w-full flex flex-col mt-2 p-2 ">
+                        <a href="./dashboard.html"
+                            class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 md:gap-2 p-2 rounded-[5px] m-1 cursor-pointer">
+                            <img class="w-[25px]" src="./assets/dashboard.png">
+                            داشبورد
+                        </a>
+                        <a href="./easy-trade.html"
+                            class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer ">
+                            <img class="w-[25px]" src="./assets/sync-1.png">
+                            معامله آسان
+                        </a>
+                        <a
+                            class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer ">
+                            <img class="w-[25px]" src="./assets/swap-1.png">
+                            <p class="hidden md:block"> معامله حرفه ای
+                            </p>
+                            <p class="md:hidden">معامله</p>
+                        </a>
+                        <a href="./wallet.html"
+                            class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]   flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer ">
+                            <img class="w-[25px]" src="./assets/wallet-1.png">
+                            کیف پول
+                        </a>
+                        <a
+                            class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer ">
+                            <img class="w-[25px]" src="./assets/bitcoin-2.png">
+                            بازار
+                        </a>
+                        <a
+                            class="text-[12px] w-full  md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer ">
+                            <img class="w-[25px]" src="./assets/calendar.png">
+                            تاریخچه فعالیت
+                        </a>
+                        <a
+                            class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer">
+                            <img class="w-[25px]" src="./assets/gift.png">
+                            خرید گیفت کارت
+                        </a>
+                    </div>
+                    <div class="w-[80%]  border border-[#8B5CF6]"></div>
+                    <!-- ------------------------- -->
+
+                    <div class="w-full mt-8">
+                        <p class="text-[#E5E7EB80] text-[12px]">دسترسی سریع </p>
+                        <div class="w-full flex flex-col mt-2 p-2 ">
+                            <a
+                                class="text-[12px] w-full md:text-[20px] text-[#E5E7EB] bg-[#8B5CF666] flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer">
+                                <img class="w-[25px]" src="./assets/user.png">
+                                مدیریت حساب
+                            </a>
+                            <a
+                                class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]   flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer">
+                                <img class="w-[25px]" src="./assets/settings-1@2x.png">
+                                <p class="hidden md:block"> تنظیمات اپلیکیشن</p>
+                                <p class="md:hidden">تنظیمات</p>
+                            </a>
+                            <a
+                                class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer">
+                                <img class="w-[25px]" src="./assets/ticket.png">
+                                تیکت پشتیانی
+                            </a>
+                            <a
+                                class="text-[12px] w-full md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer">
+                                <img class="w-[25px]" src="./assets/log-out-1@2x.png">
+                                خروج
+                            </a>
+                        </div>
+                        <div class="hidden md:block w-[80%]  border border-[#8B5CF6]"></div>
+                        <!-- ------------------------- -->
+                        <div class="hidden md:block w-full mt-8">
+                            <p class="text-[#E5E7EB80] text-[12px]">پشتیبانی تلفنی </p>
+                            <div class="w-full flex flex-col mt-2  p-2 ">
+                                <i
+                                    class="text-[12px] md:text-[20px] text-[#E5E7EB]  flex items-center justify-start gap-1 m:gap2 p-2 rounded-[5px] m-1 cursor-pointer">
+                                    <img class="w-[25px]" src="./assets/user.png">
+                                    <p>09142983383</p>
+                                </i>
+                            </div>
+                            <!-- ---------------------------- -->
+
+                        </div>
+                    </div>
+        </nav>
+        <!-- sidebar  -->
+        <!--  -->
+        <div class="w-[75%] flex flex-col items-center justify-center ">
+            <!-- header -->
+            <div class="w-full flex items-center justify-between bg-[#221B4D] p-2 pr-4 pl-4 rounded-[5px]  ">
+                <div class="flex items-center gap-2">
+                    <div
+                        class="w-[35px] h-[35px] md:w-[50px] md:h-[50px] flex items-center justify-center bg-[#8B5CF6] rounded-full">
+                        <img src="./assets/user-prof.png"
+                            class="w-[30px] h-[32px] md:w-[40px] md:h-[40px] rounded-full">
+                    </div>
+                    <p class="text-[#E5E7EB] text-[10px] md:text-[16px]">حسین ایمانی</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./assets/settings-1.png" class="w-[20px] cursor-pointer">
+                    <img src="./assets/message.png" class="w-[20px] cursor-pointer">
+                    <img src="./assets/notif.png" class="w-[20px] cursor-pointer">
+                    <img src="./assets/sun.png" class="w-[20px] cursor-pointer">
+                </div>
+            </div>
+            <!-- header -->
+
+
+            <!-- --------------Profile----------- -->
+            <div class="w-full flex flex-col items-center mt-12 ">
+                <div class="w-full flex flex-col items-center justify-center">
+                    <div class="w-[100px] h-[100px] flex items-center justify-center rounded-full bg-[#8B5CF6]">
+                        <img src="./assets/user-prof.png" class="w-[90px] h-[90px]">
+                    </div>
+                    <p class="mD:text-[20px] text-[#E5E7EB]">حسین ایمانی</p>
+                </div>
+
+                <div class="w-[70%] flex flex-col items-start justify-center gap-2 mt-16 text-[#E5E7EB]">
+                    <p class="md:text-[20px] font-bold">اطلاعات حساب</p>
+                    <div class="w-full flex flex-col items-center justify-center p-4 bg-[#2E255C]">
+                        <div class="w-full text-[10px] md:text-[16px] flex items-center justify-between">
+                            <p class="hidden md:block"> نام نام خانوادگی </p>
+                            <p class="md:hidden">نام</p>
+                            <p>حسین ایمانی </p>
+                        </div>
+                        <div class="w-[99%] h-[0.5px] m-4 bg-[#8B5CF6]"></div>
+
+                        <div class="w-full text-[10px] md:text-[16px] flex items-center justify-between">
+                            <p>شماره تماس</p>
+                            <p>09142983383</p>
+                        </div>
+
+                        <div class="w-[99%] h-[0.5px] m-4 bg-[#8B5CF6]"></div>
+                        <div class="w-full text-[10px] md:text-[16px] flex items-center justify-between">
+                            <p> اخرین تاریخ لاگین </p>
+                            <p>1405/01/05</p>
+                        </div>
+                        <div class="w-[99%] h-[0.5px] m-4 bg-[#8B5CF6]"></div>
+                        <div
+                            class="w-full text-[10px] md:text-[16px] flex flex-col md:flex-row items-center justify-between">
+                            <p class="text-[12px] mb-2"> شماره کارت</p>
+                            <div class="flex flex-col items-center gap-2">
+                                <div
+                                    class="flex flex-col-reverse md:flex-row items-center justify-between gap-2 md:gap-4">
+                                    <button
+                                        class="text-[#FF383C] hover:bg-[#ff383b40] p-1 pl-2 pr-2 rounded-[5px]">حذف</button>
+                                    <span class="text-[#34C759] bg-[#205f3085]  rounded-[5px] p-1 pl-2 pr-2">تایید
+                                        شده</span>
+                                    <p>6104-3387-0189-3501 </p>
+                                </div>
+                                <div class="w-[99%] h-[0.5px] m-4 bg-[#8B5CF6] md:hidden"></div>
+                                <div
+                                    class="flex flex-col-reverse md:flex-row items-center justify-between gap-2 md:gap-4">
+                                    <button
+                                        class="text-[#FF383C] hover:bg-[#ff383b40] p-1 pl-2 pr-2 rounded-[5px]">حذف</button>
+                                    <span class="text-[#34C759] bg-[#205f3085]  rounded-[5px] p-1 pl-2 pr-2">تایید
+                                        شده</span>
+                                    <p>6219-8619-1990-6171 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[99%] h-[0.5px] m-4 bg-[#8B5CF6]"></div>
+                        <div class="w-full text-[10px] md:text-[16px] flex items-center justify-between">
+                            <p> وضعیت احراز هویت </p>
+                            <p class="text-[#34C759]">تایید</p>
+                        </div>
+                    </div>
+
+
+
+                    <div
+                        class="w-full bg-[#FF383C33] border border-[#FF383C] hover:bg-[#ff383b52] rounded-[5px] p-2 flex items-center justify-center">
+                        <button class="w-full flex items-center justify-center gap-2">
+                            <i><img src="./assets/log-out-1@2x.png" class="w-[25px]"></i>
+                            <span class="text-[10px] md:text-[16px]">خروج از حساب کاربری</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------Profile----------- -->
+
+        </div>
+
+
+
+    </section>
+</body>
+
+</html>
